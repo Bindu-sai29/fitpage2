@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nutrition</title>
+	<link href="food.css" rel="stylesheet" type="text/css" />
+	<script defer src="food.js"></script>
+	<link rel="icon" href="images/fitness101_icon.png">
+</head>
+
+<body>
+
+	<div id="navbar">
+
+		<img id="app" src="../images/fitness101 logo2.png">
+
+		<a href="../index.html">
+			<h1>Workouts</h1>
+		</a>
+
+		<a href="food.html">
+	        <h1>Nutrition</h1>
+	    </a>
+	
+	    <a href=" ../schedule/schedule.html">
+			<h1>Schedule</h1>
+		</a>
+
+		<a href="#">
+			<h1>About Us</h1>
+		</a>
+
+	</div>
+
+	<div id="userinfo">
+		<form>
+			<label for="userInput">What type of type of food do you feel like eating?</label>
+			<input type="text" list="userinput" id="userInput" name="userInput">
+
+			<datalist id="userinput">
+				<option value="pizza"></option>
+				<option value="pasta"></option>
+				<option value="chicken"></option>
+				<option value="beef"></option>
+				<option value="tacos"></option>
+			</datalist>
+		</form>
+		<button id="foodSubmit">Click Here for Food Options!</button>
+	</div>
+
+	<div id="foodContainer">
+
+	</div>
+
+
+</body>
+
+</html>
